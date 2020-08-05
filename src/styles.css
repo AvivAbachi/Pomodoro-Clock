@@ -1,0 +1,45 @@
+.bg {
+  height: 100vh;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.timer {
+  animation: fade 0.75s ease-in-out forwards;
+  opacity: 0;
+  background: white;
+}
+
+.timer h1 {
+  font-weight: normal;
+  margin-bottom: 0.3em;
+  color: #2196f3;
+}
+
+.timer h5 {
+  margin-bottom: 0.8em;
+}
+
+.rs-btn-group-vertical i {
+  width: inherit !important;
+}
+
+.timer_control > button {
+  margin: 0 3em;
+}
+
+.rs-btn-ghost {
+  cursor: default;
+  opacity: 1;
+  color: #575757;
+  border: 1px solid #2196f3;
+}
+@keyframes fade {
+  to {
+    opacity: 1;
+  }
+}
