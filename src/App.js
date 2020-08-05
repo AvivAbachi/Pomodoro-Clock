@@ -14,7 +14,7 @@ import {
   ButtonGroup
 } from "rsuite";
 
-const INTERVAL_SPEED = 1;
+const INTERVAL_SPEED = 1000;
 const BEEP_SRC =
   "https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav";
 
